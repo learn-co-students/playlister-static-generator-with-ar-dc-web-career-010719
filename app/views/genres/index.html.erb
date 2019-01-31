@@ -1,0 +1,11 @@
+<head>
+  <title>Genre Index</title>
+</head>
+<body>
+  <h1>Genres</h1>
+  <ul>
+    <% @genres.each do |genre| %>
+    <li><a href="/genres/<%= genre.to_slug %>.html"><%= genre.name %></a></li>
+    <% end %>
+  </ul>
+</body>

@@ -1,4 +1,5 @@
 require 'bundler/setup'
+require 'pry'
 Bundler.require
 
 ENV["PLAYLISTER_ENV"] ||= "development"
